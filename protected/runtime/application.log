@@ -1,0 +1,216 @@
+2013/04/27 17:22:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:25:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:25:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:28:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:28:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:28:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:28:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/27 17:28:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\wodo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
