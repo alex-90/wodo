@@ -10,8 +10,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'WoDo',
-	
-	'theme'=>'bootstrap', // requires you to copy the theme under your themes directory
+	'theme'=>'bootstrap',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -31,10 +30,9 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 			'generatorPaths'=>array(
-				'bootstrap.gii',
-			),
+                'bootstrap.gii',
+            ),
 		),
-		
 	),
 
 	// application components
@@ -42,12 +40,16 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+			'class' => 'WebUser',
 		),
-		
-		'bootstrap'=>array(
-			'class'=>'bootstrap.components.Bootstrap',
+		'authManager'=>array(
+			'class' => 'PhpAuthManager',
+			'defaultRoles' => array('guest'),
 		),
 		// uncomment the following to enable URLs in path-format
+		'bootstrap'=>array(
+            'class'=>'bootstrap.components.Bootstrap',
+        ),
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
@@ -59,19 +61,17 @@ return array(
 			),
 		),
 		
-		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-		),
+		
 		// uncomment the following to use a MySQL database
-		/*
+		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+			'connectionString' => 'mysql:host=localhost;dbname=wodo',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'password',
 			'charset' => 'utf8',
 		),
-		*/
+		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
@@ -97,6 +97,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'post@urazalinov.info',
 	),
 );

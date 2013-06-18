@@ -2,6 +2,10 @@
 
 class SiteController extends Controller
 {
+	public $layout = "wodo";
+	const STATUS_OPENED = 0;
+	const STATUS_SUCCESS = 1;
+	
 	/**
 	 * Declares class-based actions.
 	 */
@@ -25,11 +29,39 @@ class SiteController extends Controller
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
 	 */
-	public function actionIndex()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+	public function actionNew()
+	{	
+		$model=new Wodo;
+		//$model->date = date('d-m-Y');
+		$model->status = self::STATUS_OPENED;
+		$model->date = date('Y-m-d');
+		
+		if(isset($_POST['ajax']) && $_POST['ajax']==='wodo-_wodo-form')
+		{
+			echo CActiveForm::validate($model);
+			Yii::app()->end();
+		}
+		
+
+		if(isset($_POST['Wodo']))
+		{
+			$model->attributes=$_POST['Wodo'];
+			//$model->dt = date('Y-m-d H:i:s');
+			$model->user_id = 1;//Yii::app()->user->id;
+			if(!$model->dt_first) $model->dt_first = date('Y-m-d H:i:s');
+			$model->last_updated = date('Y-m-d H:i:s');
+			
+			if($model->validate())
+			{
+				$model->save();
+				//echo "Yii";
+				$this->redirect(array('site/index'));
+			}
+			
+		}
+		
+		$this->render('_wodo',array('model'=>$model));
+		
 	}
 
 	/**
@@ -44,6 +76,21 @@ class SiteController extends Controller
 			else
 				$this->render('error', $error);
 		}
+	}
+	
+	public function actionIndex(){
+		
+		$dataProvider = new CActiveDataProvider('Wodo', array(
+			'sort'=>array(
+				'defaultOrder'=>'id DESC',
+			),
+			'pagination'=>array(
+				'pageSize'=>3,
+			),
+		));
+		$this->render('index', array(
+			'dataProvider'=>$dataProvider,
+		));
 	}
 
 	/**
@@ -105,5 +152,69 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
+	}
+	
+	
+	
+	public function actionShow($id){
+		$model = Wodo::model()->findByPk($id);
+		if(!$model) throw new CHttpException(404);
+		
+		echo 'yii';
+	}
+	
+	
+	public function actionTest(){
+		//d(Yii::app()->user);
+		echo Yii::app()->user->id;
+		
+		if(Yii::app()->user->checkAccess('admin')){
+			echo "hello, I'm administrator";
+		}
+	}
+	
+	
+	
+	public function actionGetmodal_inner_adm($id){
+		$model = Wodo::model()->findByPk($id);
+		if(!$model) throw new CHttpException(500);
+		
+		$this->renderPartial('_adm', array(
+			'model'=>$model,
+		));
+	}
+	
+	
+	
+	public function actionUpdate($id){
+		$model = Wodo::model()->findByPk($id);
+		if(!$model) throw new CHttpException(500);
+		
+		$model->status = self::STATUS_SUCCESS;
+		//$model->date = date('Y-m-d');
+		
+		if(isset($_POST['ajax']) && $_POST['ajax']==='wodo-_wodo-form')
+		{
+			echo CActiveForm::validate($model);
+			Yii::app()->end();
+		}
+		
+
+		if(isset($_POST['Wodo']))
+		{
+			$model->attributes=$_POST['Wodo'];
+			$model->user_id = Yii::app()->user->id;
+			if(!$model->dt_first) $model->dt_first = date('Y-m-d H:i:s');
+			$model->last_updated = date('Y-m-d H:i:s');
+			
+			if($model->validate())
+			{
+				$model->save();
+				$this->redirect(array('site/index'));
+			}
+			
+		}
+		
+		$this->render('_wodo',array('model'=>$model));
 	}
 }

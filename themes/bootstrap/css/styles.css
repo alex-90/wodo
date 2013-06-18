@@ -1,3 +1,15 @@
 #page {
     padding-top: 60px;
 }
+div.yellow{
+	background-color:#FCF8E3;
+}
+div.green{
+	background-color:#DFF0D8;
+}
+div.red{
+	background-color:#F2DEDE;
+}
+body{
+	background-color:#ccc;
+}

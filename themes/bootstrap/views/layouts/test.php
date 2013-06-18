@@ -1,0 +1,3 @@
+LAYOUT
+
+<? echo $content;
